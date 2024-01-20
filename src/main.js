@@ -254,6 +254,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     lightbox.refresh();
-    // Оновлення галереї
   }
 });
