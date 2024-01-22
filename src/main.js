@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const searchForm = document.getElementById('searchForm');
   const searchInput = document.getElementById('searchInput');
-  const startBtn = document.querySelector('.btn');
+  // const startBtn = document.querySelector('.btn');
   const gallery = document.getElementById('gallery');
 
   const apiKey = '41934305-8f787e974a2ef1238ff7fef77';
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       })
       .finally(() => {
-        hideLoader();
+        hideLoader(loaderContainer);
       });
   });
 
