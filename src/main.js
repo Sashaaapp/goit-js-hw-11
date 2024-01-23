@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
   searchForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    gallery.innerHTML = '';
+
     showLoader(loaderContainer);
 
     const searchTerm = searchInput.value.trim();
